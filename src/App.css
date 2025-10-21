@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+
+
+.profile {
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+
+.description {
+  padding: 20px;
+}
+
+.avatar {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.tag,
+.location {
+  color: gray;
+  margin: 4px 0;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f3f6f9;
+  border-top: 1px solid #e4e9f0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.label {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 4px;
+}
+
+.quantity {
+  font-weight: 700;
+}
+
+.statistics {
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.stat-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.item {
+  flex: 1;
+  margin: 0 5px;
+  border-radius: 5px;
+  padding: 20px 0;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  font-weight: 500;
+  color: #fff;
+}
+
+.percentage {
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.friend-list {
+  width: 300px;
+  margin: 20px auto;
+  padding: 0;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.status {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.status.online {
+  background-color: rgb(16, 241, 42);
+}
+
+.status.offline {
+  background-color: red;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+}
+
+.transaction-history {
+  width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-history thead {
+  background-color: #00bcd4;
+  color: white;
+  text-transform: uppercase;
+}
+
+.transaction-history th,
+.transaction-history td {
+  padding: 12px 15px;
+  border: 1px solid #e0e0e0;
+}
+
+.transaction-history tbody tr:nth-child(even) {
+  background-color: #f3f6f9;
+}
+
+.transaction-history tbody tr:hover {
+  background-color: #e0f7fa;
+  transition: background-color 0.2s ease;
+}
